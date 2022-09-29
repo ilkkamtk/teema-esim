@@ -7,7 +7,5 @@
 </head>
 <body>
 <nav>
-    <ul>
-        <li>Linkki</li>
-    </ul>
+    <?php wp_nav_menu(); ?>
 </nav>

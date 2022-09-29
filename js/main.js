@@ -1,0 +1,1 @@
+jQuery('aside h2').html('Moro vaan!');
