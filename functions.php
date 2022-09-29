@@ -1,7 +1,7 @@
 <?php
 function lisaaTyylitJaSkriptit() {
 	wp_enqueue_style( 'main-style', get_stylesheet_directory_uri() . '/css/main.css' );
-	wp_enqueue_script( 'main-script', get_stylesheet_directory_uri() . '/js/main.js');
+	wp_enqueue_script( 'main-script', get_stylesheet_directory_uri() . '/js/main.js', ['jquery']);
 }
 
 add_action( 'wp_enqueue_scripts', 'lisaaTyylitJaSkriptit' );
